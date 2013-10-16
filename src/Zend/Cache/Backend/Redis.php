@@ -15,7 +15,7 @@ modification, are permitted provided that the following conditions are met:
       documentation and/or other materials provided with the distribution.
     * The name of Colin Mollenhour may not be used to endorse or promote products
       derived from this software without specific prior written permission.
-    * The class name must remain as Cm_Cache_Backend_Redis.
+    * The class name must remain as Zend_Cache_Backend_Redis.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -36,7 +36,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @author     Colin Mollenhour (http://colin.mollenhour.com)
  */
-class Cm_Cache_Backend_Redis extends Zend_Cache_Backend implements Zend_Cache_Backend_ExtendedInterface
+class Zend_Cache_Backend_Redis extends Zend_Cache_Backend implements Zend_Cache_Backend_ExtendedInterface
 {
 
     const SET_IDS         = 'zc:ids';
@@ -79,7 +79,7 @@ class Cm_Cache_Backend_Redis extends Zend_Cache_Backend implements Zend_Cache_Ba
     /**
      * Contruct Zend_Cache Redis backend
      * @param array $options
-     * @return \Cm_Cache_Backend_Redis
+     * @return \Zend_Cache_Backend_Redis
      */
     public function __construct($options = array())
     {

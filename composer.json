@@ -16,7 +16,7 @@
     "autoload": {
         "classmap": ["src/"],
         "psr-0": {
-          "Cm": ["src/"]
+          "Zend": ["src/"]
         }
     }
 }
