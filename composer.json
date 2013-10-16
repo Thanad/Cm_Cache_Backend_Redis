@@ -14,9 +14,6 @@
     },
     "include-path": ["src/"],
     "autoload": {
-        "classmap": ["src/"],
-        "psr-0": {
-          "Zend": ["src/"]
-        }
+        "classmap": ["src/"]
     }
 }
