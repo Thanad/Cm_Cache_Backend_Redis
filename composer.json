@@ -10,6 +10,13 @@
         }
     ],
     "require":{
-        "magento-hackathon/magento-composer-installer":"*"
+        
+    },
+    "include-path": ["src/"],
+    "autoload": {
+        "classmap": ["src/"],
+        "psr-0": {
+          "Cm": ["src/"]
+        }
     }
 }
