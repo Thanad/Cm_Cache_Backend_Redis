@@ -30,6 +30,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 /**
+ * @see Zend_Cache_Backend_Interface
+ */
+require_once 'Zend/Cache/Backend/ExtendedInterface.php';
+
+/**
+ * @see Zend_Cache_Backend
+ */
+require_once 'Zend/Cache/Backend.php';
+
+/**
  * Redis adapter for Zend_Cache
  *
  * @copyright  Copyright (c) 2013 Colin Mollenhour (http://colin.mollenhour.com)
